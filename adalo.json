@@ -1,0 +1,12 @@
+{
+  "author": "Eduard Panasenko",
+  "description": "Barcode Generator",
+  "logo": "./logo.png",
+  "displayName": "Barcode",
+  "components": [
+    {
+      "name": "Barcode",
+      "manifest": "./src/components/Barcode/manifest.json"
+    }
+  ]
+}

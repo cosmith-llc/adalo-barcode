@@ -1,0 +1,21 @@
+{
+  "name": "barcode",
+  "description": "Barcode Generator",
+  "version": "1.1.0",
+  "main": "index.js",
+  "license": "ISC",
+  "author": "Eduard Panasenko",
+  "scripts": {
+    "start": "adalo dev",
+    "login": "adalo login",
+    "publish": "adalo publish"
+  },
+  "devDependencies": {
+    "@adalo/cli": "^0.0.57",
+    "react": "18.2.0"
+  },
+  "dependencies": {
+    "jsbarcode": "^3.8.0",
+    "react-native-barcode-builder": "^2.0.0"
+  }
+}
