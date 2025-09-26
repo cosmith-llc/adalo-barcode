@@ -1,7 +1,7 @@
 {
   "displayName": "Barcode",
   "defaultWidth": 200,
-  "defaultHeight": 50,
+  "defaultHeight": 75,
   "resizeX": true,
   "resizeY": false,
   "components": "./index.js",
@@ -66,13 +66,13 @@
       "name": "data",
       "displayName": "Value for barcode",
       "type": "text",
-      "default": "123456789"
+      "default": "ABC-abc-1234"
     },
     {
       "name": "text",
       "displayName": "Text for barcode",
       "type": "text",
-      "default": ""
+      "default": "ABC-abc-1234"
     },
     {
       "name": "widthBarcode",
@@ -82,7 +82,8 @@
       "control": {
         "type": "slider",
         "max": 5,
-        "min": 1
+        "min": 1,
+        "default": 1
       }
     }
   ]

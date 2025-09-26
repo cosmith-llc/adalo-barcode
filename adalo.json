@@ -1,5 +1,5 @@
 {
-  "author": "Eduard Panasenko",
+  "author": "cosmith.io",
   "description": "Barcode Generator",
   "logo": "./logo.png",
   "displayName": "Barcode",
@@ -8,5 +8,7 @@
       "name": "Barcode",
       "manifest": "./src/components/Barcode/manifest.json"
     }
-  ]
+  ],
+  "iosInstallScript": "./scripts/install_ios.sh",
+  "androidInstallScript": "./scripts/install_android.sh"
 }

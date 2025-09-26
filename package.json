@@ -1,7 +1,7 @@
 {
-  "name": "barcode",
+  "name": "@cosmith/adalo-barcode-generator",
   "description": "Barcode Generator",
-  "version": "1.1.0",
+  "version": "0.0.7",
   "main": "index.js",
   "license": "ISC",
   "author": "Eduard Panasenko",

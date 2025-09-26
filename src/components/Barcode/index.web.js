@@ -7,8 +7,12 @@ function Converter(props) {
     type,
     data,
     text,
+    _height,
+    _width,
     widthBarcode
   } = props
+
+  console.log('_height#', _height, _width);
 
   const [isError, setError] = useState(false);
 

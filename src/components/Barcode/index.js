@@ -43,15 +43,18 @@ export default class Converter extends Component {
 
     return (
       <View style={barcodeWrapperStyle}>
-        {this.state.isError
-          ? <Text style={errorStyle}>Incorrect format!</Text>
-          : <Barcode
-            format={getFormat()}
-            value={data.toString()}
-            width={widthBarcode}
-            text={text}
-            onError={handleError}
-          />
+        {
+          data.trim() === ""
+            ? <Text style={errorStyle}>Value is null!</Text>
+            : this.state.isError
+              ? <Text style={errorStyle}>Incorrect format!</Text>
+              : <Barcode
+                format={getFormat()}
+                value={data.toString()}
+                width={widthBarcode}
+                text={text}
+                onError={handleError}
+              />
         }
       </View>
     )

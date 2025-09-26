@@ -1,0 +1,1 @@
+export {    Barcode as Barcode,  } from '../../index.js'
